@@ -23,6 +23,7 @@ function Footer() {
           <div className="footer-quicklinks">
             <Link to="/" className="footer-link">Home</Link>
             <Link to="/contacto" className="footer-link">Contacto</Link>
+            <Link to="/servicios" className="footer-link">Servicios</Link>
           </div>
         </div>
         <div className="footer-col">
