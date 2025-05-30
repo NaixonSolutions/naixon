@@ -18,3 +18,45 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+.home-header {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 48px;
+  margin-right: 2rem;
+}
+
+.home-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-nav a:hover {
+  text-decoration: underline;
+}
+
+.home-main {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #555;
+}
