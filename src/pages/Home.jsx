@@ -1,21 +1,21 @@
-import logo from '../assets/Logo.png' // Asegúrate de tener tu logo en src/assets/logo.png
+import logo from '../assets/Logo.png' 
 import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div>
-      <header className="home-header">
+      <header className="header">
         <img src={logo} alt="Logo" className="logo" />
-        <nav className="home-nav">
-          <Link to="#que-hacemos">Qué hacemos</Link>
-          <Link to="#como-lo-hacemos">Cómo lo hacemos</Link>
-          <Link to="/contacto">Contacto</Link>
+        <nav className="nav">
+          <Link to="/Servicios">Soluciones</Link>
+          <Link to="/Contacto">Contacto</Link>
+          <Link to="/FAQ">FAQ</Link>
         </nav>
       </header>
       <main className="home-main">
-        <h1 className="home-title">Bienvenido a NAIXON</h1>
-        <h2 className="home-subtitle">Soluciones creativas para tu negocio</h2>
-        {/* ...puedes agregar más contenido aquí... */}
+        <h1 className="home-title">Soluciones para potenciar tu negocio</h1>
+        <h3 className="home-subtitle">Diseñamos estrategias tecnológicas innovadoras que impulsan tu crecimiento.</h3>
+        <Link to="/Contacto" className="cta-btn">Me interesa</Link>
       </main>
     </div>
   )
