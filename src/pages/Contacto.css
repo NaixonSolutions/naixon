@@ -57,11 +57,12 @@
   border-radius: 1.5rem;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.2s;
 }
 .contacto-form-link:hover {
   background: #ff7d04;
   color: #fff;
+  transform: translateY(-4px) scale(1.06);
 }
 
 .contacto-info {
