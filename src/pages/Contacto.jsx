@@ -23,41 +23,6 @@ function Contacto() {
                 Completar
               </a>
             </div>
-            <div className="contacto-widget mail-widget">
-              <h3>Tambien podes enviarnos un mail</h3>
-              <form
-                className="contacto-email-form"
-                action="mailto:naixon.solutions@gmail.com"
-                method="POST"
-                encType="text/plain"
-              >
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Tu nombre"
-                  required
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Tu email"
-                  required
-                />
-                <textarea
-                  name="message"
-                  placeholder="Escribí tu mensaje..."
-                  required
-                  rows={5}
-                />
-                <button
-                  type="submit"
-                  className="contacto-form-link"
-                  style={{ width: '100%', maxWidth: 200, textAlign: 'center' }}
-                >
-                  Enviar mensaje
-                </button>
-              </form>
-            </div>
           </div>
         </section>
         
