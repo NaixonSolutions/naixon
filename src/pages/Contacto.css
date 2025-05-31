@@ -1,0 +1,103 @@
+.contacto-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contacto-hero {
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+.contacto-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.contacto-widgetanimated-widget{
+    color: #000000;
+}
+
+.contacto-widget-btn {
+  padding: 0.75rem 2rem;
+  background: #ff7d04;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contacto-widget-btn:hover {
+  background: #ff7d04;
+}
+
+.contacto-widget {
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 16px rgba(99,102,241,0.12);
+  animation: fadeInUp 0.5s;
+}
+
+.contacto-form-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  background: #ff7d04;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.contacto-form-link:hover {
+  background: #ff7d04;
+  color: #fff;
+}
+
+.contacto-info {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.contacto-info-card {
+  background: #f1f5f9;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.contacto-info-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(99,102,241,0.10);
+}
+
+.animated-widget {
+  animation: fadeInUp 0.5s;
+}
+.animated-card {
+  animation: fadeIn 0.7s;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+@keyframes fadeIn {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}

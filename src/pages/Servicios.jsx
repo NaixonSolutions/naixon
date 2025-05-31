@@ -9,7 +9,6 @@ function Servicios() {
           <img src={logo} alt="Logo" className="logo" />
           <nav className="nav">
             <Link to="/">Inicio</Link>
-            <Link to="/Servicios">Servicios</Link>
             <Link to="/Contacto">Contacto</Link>
             <Link to="/FAQ">FAQ</Link>
           </nav>
