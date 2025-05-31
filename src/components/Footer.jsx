@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div className="footer-col">
           <div className="footer-social">
-            <a href="https://https://www.instagram.com/naixon_solutions?igsh=aG0yZzY3Z2R5b2c5&utm_source=qr.com/" target="_blank" rel="noopener noreferrer" className="footer-social-link">
+            <a href="https://www.instagram.com/naixon_solutions?igsh=aG0yZzY3Z2R5b2c5&utm_source=q" target="_blank" rel="noopener noreferrer" className="footer-social-link">
               <img src={instagramIcon} alt="Instagram" className="footer-social-icon" />
             </a>
             <a href="mailto:naixon.solutions@gmail.com" className="footer-social-link">
