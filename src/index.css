@@ -195,3 +195,94 @@ nav a:hover {
     align-items: flex-start;
   }
 }
+
+/* Responsive styles for iPhone 15 and similar devices */
+@media (max-width: 430px) {
+  body {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.7rem 1rem;
+  }
+
+  .logo {
+    height: 40px;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .nav a, nav a {
+    font-size: 1rem;
+    margin-right: 0;
+    padding: 0.3rem 0;
+  }
+
+  .home-main {
+    padding: 1.2rem 0.5rem;
+  }
+
+  .home-title {
+    font-size: 1.5rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+  }
+
+  .cta-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    gap: 1rem;
+    max-width: 100%;
+    margin: 2rem 0 0 0;
+  }
+
+  .benefit-widget {
+    padding: 1.2rem 0.7rem;
+    min-height: 120px;
+    font-size: 0.97rem;
+  }
+
+  .footer {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .footer-row {
+    gap: 0.5rem;
+  }
+
+  .footer-col {
+    min-width: 0;
+  }
+
+  .footer-links,
+  .footer-quicklinks {
+    gap: 0.3rem;
+  }
+
+  .footer-social {
+    gap: 0.5rem;
+  }
+
+  .footer-social-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
